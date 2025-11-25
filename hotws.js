@@ -82,6 +82,45 @@
                 description: "BMW M4 – Sharp, powerful, and built to dominate — the M4 delivers pure performance attitude. 🏁⚡"
             },
             {
+                id: 10,
+                name: "94 Audi Avant RS2",
+                price: 699,
+                category: "giftset", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/HTtsVK2m/dc.jpg",
+                    "https://i.ibb.co/zhqDznzv/db.jpg",
+                    "https://i.ibb.co/XrfpcR0V/da.jpg"
+                ],
+                description: "’94 Audi Avant RS2 – The sleeper wagon that rules the roads — power hidden in style. 🚙💥"
+            },
+            {
+                id: 17,
+                name: "15 Land Rover Defender Double Cab",
+                price: 749,
+                category: "bestseller", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/Y7jRvbYn/kb.webp",
+                    "https://i.ibb.co/wZrR8Dhn/ka.jpg",
+                    "https://i.ibb.co/s92KfyDn/kc.jpg"
+                ],
+                description: "15 Land Rover Defender Double Cab – Rugged, unstoppable, and adventure-ready on any terrain. 🌍🛻"
+            },
+            {
+                id: 28,
+                name: "BMW M3 Wagon",
+                price: 699,
+                category: "newarrival", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/1tPyBkdw/bmw-m.jpg",
+                    "https://i.ibb.co/LX3Cmdj5/bm.webp",
+                    "https://i.ibb.co/CN22FKR/bmw.jpg"
+                ],
+                description: "BMW M3 Wagon – Family practicality fused with racing spirit — rare and powerful. 🚙🏁"
+            },
+            {
                 id: 1,
                 name: "Formula E Gen3 Track Aces",
                 price: 999,
@@ -201,19 +240,6 @@
                 description: "Jaguar MK1 Race Day – Vintage racer elegance with a fierce competitive edge. 🐆🏆"
             },
             {
-                id: 10,
-                name: "94 Audi Avant RS2",
-                price: 699,
-                category: "giftset", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/HTtsVK2m/dc.jpg",
-                    "https://i.ibb.co/zhqDznzv/db.jpg",
-                    "https://i.ibb.co/XrfpcR0V/da.jpg"
-                ],
-                description: "’94 Audi Avant RS2 – The sleeper wagon that rules the roads — power hidden in style. 🚙💥"
-            },
-            {
                 id: 11,
                 name: "Czinger 21C",
                 price: 699,
@@ -289,19 +315,6 @@
                     "https://i.ibb.co/0j5HG4vg/jb.jpg"
                 ],
                 description: "Cadillac Project GTP Hypercar Red – Next-gen Cadillac performance — built to conquer the future of racing. 🏁🚀"
-            },
-            {
-                id: 17,
-                name: "15 Land Rover Defender Double Cab",
-                price: 749,
-                category: "bestseller", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/Y7jRvbYn/kb.webp",
-                    "https://i.ibb.co/wZrR8Dhn/ka.jpg",
-                    "https://i.ibb.co/s92KfyDn/kc.jpg"
-                ],
-                description: "15 Land Rover Defender Double Cab – Rugged, unstoppable, and adventure-ready on any terrain. 🌍🛻"
             },
             {
                 id: 18,
@@ -439,19 +452,6 @@
                     "https://i.ibb.co/qLTt9xVD/bm2w.webp"
                 ],
                 description: "BMW 2002 – The classic that defined BMW sportiness — timeless driving icon. 🇩🇪✨"
-            },
-            {
-                id: 28,
-                name: "BMW M3 Wagon",
-                price: 699,
-                category: "newarrival", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/1tPyBkdw/bmw-m.jpg",
-                    "https://i.ibb.co/LX3Cmdj5/bm.webp",
-                    "https://i.ibb.co/CN22FKR/bmw.jpg"
-                ],
-                description: "BMW M3 Wagon – Family practicality fused with racing spirit — rare and powerful. 🚙🏁"
             },
             {
                 id: 29,
