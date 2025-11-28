@@ -27,6 +27,90 @@
         const PRODUCTS_DB = [
            
             {
+                id: 66,
+                name: "Lamborghini Hurucan Sterrato",
+                price: 1099,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/d0LvvwVq/lamhs.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "Lamborghini Hurucan Sterrato – A rugged and powerful supercar designed for off-road adventures. 🏞️🏎️"
+            },
+            {
+                id: 67,
+                name: "Ford Mustang GTD",
+                price: 999,
+                category: "mostwanted", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/TxMsjLvf/fmg.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "Ford Mustang GTD – The epitome of American muscle with a modern twist. 🏁🔥"
+            },
+            {
+                id: 68,
+                name: "BMW M3 Wagon",
+                price: 599,
+                category: "newarrival", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/0Rmj4bm5/bm3.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "BMW M3 Wagon – A rare performance wagon that mixes practicality with pure M-power thrills. 🚙🏁"
+            },
+            {
+                id: 69,
+                name: "BMW 635 CSi",
+                price: 849,
+                category: "rare", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/DsGxWs7/m6c.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "BMW 635 CSi – Classic luxury meets sporty performance in this timeless beauty. 🏁🚗"
+            },
+            {
+                id: 70,
+                name: "67 Shelby GT500 Mustang",
+                price: 749,
+                category: "mostwanted", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/LzNqJ6ms/shelg.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "67 Shelby GT500 Mustang – American muscle legend — raw power and iconic style in one beast. 🏁🔥"
+            },
+            {
+                id: 71,
+                name: "TV Series Batmobile Batman",
+                price: 599,
+                category: "newarrival", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/qGV4Gt7/tsb.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "TV Series Batmobile Batman – The iconic crime-fighting machine from the classic TV series. 🦇🚗"
+            },
+            {
                 id: 36,
                 name: "Lamborghini Sian FKP 37",
                 price: 1299,
@@ -294,7 +378,7 @@
                 id: 15,
                 name: "Cadillac Project GTP Hypercar",
                 price: 659,
-                category: "newarrival", // Change category here
+                category: "", // Change category here
                 availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/TxSFrYnp/id.webp",
@@ -307,7 +391,7 @@
                 id: 16,
                 name: "Cadillac Project GTP Hyperca(Red)",
                 price: 649,
-                category: "newarrival", // Change category here
+                category: "", // Change category here
                 availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/fY7txK3g/jc.jpg",
@@ -471,7 +555,7 @@
                 id: 30,
                 name: "Custom 53 Cadillac Blue",
                 price: 499,
-                category: "newarrival", // Change category here
+                category: "", // Change category here
                 availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/ksgVwHDx/cus.jpg",
@@ -496,7 +580,7 @@
                 id: 33,
                 name: "2013 SRT Viper",
                 price: 649,
-                category: "newarrival", // Change category here
+                category: "", // Change category here
                 availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/YBS7thJJ/image.png",
@@ -521,7 +605,7 @@
                 id: 35,
                 name: "70 Dodge Hemi Challenger",
                 price: 649,
-                category: "newarrival", // Change category here
+                category: "", // Change category here
                 availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/cXQ6BsPY/982.jpg",
