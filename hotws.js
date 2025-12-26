@@ -41,6 +41,20 @@
                 description: "Lamborghini Hurucan Sterrato – A rugged and powerful supercar designed for off-road adventures. 🏞️🏎️"
             },
             {
+                id: 40,
+                name: "Buggati veyron",
+                price: 1499,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/bMkxvj2k/bv4.png",
+                    "https://i.ibb.co/c7SnrFq/bv3.jpg",
+                    "https://i.ibb.co/YFYrqtkX/bv2.jpg",
+                    "https://i.ibb.co/JwHTj0PQ/bv1.png"
+                ],
+                description: "bugatti veyron - The ultimate hypercar experience — unparalleled speed and luxury in one package. 🚀👑"
+            },
+            {
                 id: 67,
                 name: "Ford Mustang GTD",
                 price: 999,
@@ -616,20 +630,6 @@
             }
     /*
             
-            {
-                id: 40,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    // "",
-                    // "",
-                    // ""
-                ],
-                description: ""
-            },
             {
                 id: 41,
                 name: "",
