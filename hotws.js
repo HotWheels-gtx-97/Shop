@@ -25,7 +25,44 @@
 
         // PRODUCTS DATABASE - Easy to edit and add new products
         const PRODUCTS_DB = [
-           
+
+            {
+                id: 41,
+                name: "Apline F1",
+                price: 2100,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/5hNrFz38/f1.jpg",
+                ],
+                description: "f1 - The pinnacle of Formula 1 excellence — precision engineering and blistering speed in miniature form. 🏎️⚡"
+            },
+            {
+                id: 43,
+                name: "MoneyGram Haas F1",
+                price: 2099,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/8DxTpWR4/f1w.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "moneygram haas f1 - The most sought-after Formula 1 car in the Hotwheels collection — a rare and highly collectible masterpiece. 🏎️🏆"
+            },
+            {
+                id: 42,
+                name: "Mclaren F1",
+                price: 2149,
+                category: "limited", // Change category here
+                images: [
+                    "https://i.ibb.co/DPTf7jpG/f1o.jpg",
+                    // "",
+                    // ""
+                ],
+                description: "mclaren f1 - The legendary supercar that defined an era — iconic design and blistering performance in one package. 🏎️👑"
+            },
             {
                 id: 66,
                 name: "Lamborghini Hurucan Sterrato",
@@ -630,48 +667,6 @@
             }
     /*
             
-            {
-                id: 41,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            }
-            {
-                id: 42,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
-            {
-                id: 43,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
             {
                 id: 44,
                 name: "",
