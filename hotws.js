@@ -25,127 +25,57 @@
 
         // PRODUCTS DATABASE - Easy to edit and add new products
         const PRODUCTS_DB = [
-
+            /*
             {
-                id: 41,
-                name: "Apline F1",
-                price: 2100,
+                id: 51,
+                name: "",
+                price: ,
+                category: "", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                description: ""
+            },
+            {
+                id: 52,
+                name: "",
+                price: ,
+                category: "", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                description: ""
+            },*/
+            {
+                id: 47,
+                name: "91 BMW M5",
+                price: 2199,
                 category: "limited", // Change category here
                 availability: "in-stock", // "in-stock", "sold-out", "low-stock"
                 images: [
-                    "https://i.ibb.co/5hNrFz38/f1.jpg",
+                    "https://i.ibb.co/99gF8byG/m5.jpg",
+                    // "",
                 ],
-                description: "f1 - The pinnacle of Formula 1 excellence — precision engineering and blistering speed in miniature form. 🏎️⚡"
+                description: "91 BMW M5 – A classic muscle car with a powerful V8 engine and sleek design. 🏎️✨"
             },
             {
-                id: 43,
-                name: "MoneyGram Haas F1",
+                id: 48,
+                name: "mercedes benz e36 AMG",
                 price: 2099,
                 category: "limited", // Change category here
                 availability: "in-stock", // "in-stock", "sold-out", "low-stock"
                 images: [
-                    "https://i.ibb.co/8DxTpWR4/f1w.jpg",
-                    // "",
-                    // "",
-                    // ""
+                    "https://i.ibb.co/0yFxRDDW/e36.jpg",
                 ],
-                description: "moneygram haas f1 - The most sought-after Formula 1 car in the Hotwheels collection — a rare and highly collectible masterpiece. 🏎️🏆"
-            },
-            {
-                id: 42,
-                name: "Mclaren F1",
-                price: 2149,
-                category: "limited", // Change category here
-                images: [
-                    "https://i.ibb.co/DPTf7jpG/f1o.jpg",
-                    // "",
-                    // ""
-                ],
-                description: "mclaren f1 - The legendary supercar that defined an era — iconic design and blistering performance in one package. 🏎️👑"
-            },
-            {
-                id: 66,
-                name: "Lamborghini Hurucan Sterrato",
-                price: 1099,
-                category: "limited", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/d0LvvwVq/lamhs.jpg",
-                    // "",
-                    // "",
-                    // ""
-                ],
-                description: "Lamborghini Hurucan Sterrato – A rugged and powerful supercar designed for off-road adventures. 🏞️🏎️"
-            },
-            {
-                id: 40,
-                name: "Buggati veyron",
-                price: 1499,
-                category: "limited", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/bMkxvj2k/bv4.png",
-                    "https://i.ibb.co/c7SnrFq/bv3.jpg",
-                    "https://i.ibb.co/YFYrqtkX/bv2.jpg",
-                    "https://i.ibb.co/JwHTj0PQ/bv1.png"
-                ],
-                description: "bugatti veyron - The ultimate hypercar experience — unparalleled speed and luxury in one package. 🚀👑"
-            },
-            {
-                id: 67,
-                name: "Ford Mustang GTD",
-                price: 999,
-                category: "mostwanted", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/TxMsjLvf/fmg.jpg",
-                    // "",
-                    // "",
-                    // ""
-                ],
-                description: "Ford Mustang GTD – The epitome of American muscle with a modern twist. 🏁🔥"
-            },
-            {
-                id: 68,
-                name: "BMW M3 Wagon",
-                price: 599,
-                category: "newarrival", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/0Rmj4bm5/bm3.jpg",
-                    // "",
-                    // "",
-                    // ""
-                ],
-                description: "BMW M3 Wagon – A rare performance wagon that mixes practicality with pure M-power thrills. 🚙🏁"
-            },
-            {
-                id: 69,
-                name: "BMW 635 CSi",
-                price: 849,
-                category: "rare", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/DsGxWs7/m6c.jpg",
-                    // "",
-                    // "",
-                    // ""
-                ],
-                description: "BMW 635 CSi – Classic luxury meets sporty performance in this timeless beauty. 🏁🚗"
-            },
-            {
-                id: 70,
-                name: "67 Shelby GT500 Mustang",
-                price: 749,
-                category: "mostwanted", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "https://i.ibb.co/LzNqJ6ms/shelg.jpg",
-                    // "",
-                    // "",
-                    // ""
-                ],
-                description: "67 Shelby GT500 Mustang – American muscle legend — raw power and iconic style in one beast. 🏁🔥"
+                description: "Mercedes Benz E36 AMG – A luxury sports car with a powerful V8 engine and sleek design. 🏎️✨"
             },
             {
                 id: 71,
@@ -162,11 +92,191 @@
                 description: "TV Series Batmobile Batman – The iconic crime-fighting machine from the classic TV series. 🦇🚗"
             },
             {
+                id: 49,
+                name: "2003 Dodge Viper SRT-10",
+                price: 2099,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/r2YFfkWQ/dr.jpg",
+                ],
+                description: "2003 Dodge Viper SRT-10 – A powerful muscle car with a V10 engine and aggressive styling. 🏎️🔥"
+            },
+            {
+                id: 44,
+                name: "Aston Martin Vanquish",
+                price: 1699,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/G30kKJWD/asc.jpg",
+                    "https://i.ibb.co/BKvG4KmC/asv.jpg",
+                ],
+                description: "Aston Martin Vanquish – A luxury supercar with a powerful V12 engine and sleek design. 🏎️✨"
+            },
+            {
+                id: 45,
+                name: "Twin Mill Gen-E",
+                price: 649,
+                category: "rare", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/Sw9zhtf2/twe.jpg",
+                    "https://i.ibb.co/7NNV9gWQ/tw.jpg",
+                ],
+                description: "Twin Mill Gen-E - A futuristic evolution of the iconic Twin Mill — electric power meets classic Hot Wheels style. ⚡🔥"
+            },
+            {
+                id: 46,
+                name: "Bentley Continental GT3",
+                price: 2199,
+                category: "limited", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/5x8XHWQQ/ben.jpg",
+                    // ""
+                ],
+                description: "bentley continental gt3 - A racing legend in miniature form — Bentley’s GT3 car with sleek aerodynamics and track-ready performance. 🏁🚗"
+            },
+            {
+                id: 50,
+                name: "Max Steel",
+                price: 599,
+                category: "newarrival", // Change category here
+                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/3yPdqs7z/ms.jpg",
+                ],
+                description: "Max Steel – A high-tech, futuristic Hot Wheels car with a sleek design and advanced features. 🚀✨"
+            },
+            {
+                id: 41,
+                name: "Apline F1",
+                price: 2100,
+                category: "limited", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/5hNrFz38/f1.jpg",
+                ],
+                description: "f1 - The pinnacle of Formula 1 excellence — precision engineering and blistering speed in miniature form. 🏎️⚡"
+            },
+            {
+                id: 43,
+                name: "MoneyGram Haas F1",
+                price: 2099,
+                category: "limited", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/8DxTpWR4/f1w.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "moneygram haas f1 - The most sought-after Formula 1 car in the Hotwheels collection — a rare and highly collectible masterpiece. 🏎️🏆"
+            },
+            {
+                id: 42,
+                name: "Mclaren F1",
+                price: 2149,
+                category: "limited", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/DPTf7jpG/f1o.jpg",
+                    // "",
+                    // ""
+                ],
+                description: "mclaren f1 - The legendary supercar that defined an era — iconic design and blistering performance in one package. 🏎️👑"
+            },
+            {
+                id: 66,
+                name: "Lamborghini Hurucan Sterrato",
+                price: 1099,
+                category: "limited", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/d0LvvwVq/lamhs.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "Lamborghini Hurucan Sterrato – A rugged and powerful supercar designed for off-road adventures. 🏞️🏎️"
+            },
+            {
+                id: 40,
+                name: "Buggati veyron",
+                price: 1499,
+                category: "limited", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/bMkxvj2k/bv4.png",
+                    "https://i.ibb.co/c7SnrFq/bv3.jpg",
+                    "https://i.ibb.co/YFYrqtkX/bv2.jpg",
+                    "https://i.ibb.co/JwHTj0PQ/bv1.png"
+                ],
+                description: "bugatti veyron - The ultimate hypercar experience — unparalleled speed and luxury in one package. 🚀👑"
+            },
+            {
+                id: 67,
+                name: "Ford Mustang GTD",
+                price: 999,
+                category: "mostwanted", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/TxMsjLvf/fmg.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "Ford Mustang GTD – The epitome of American muscle with a modern twist. 🏁🔥"
+            },
+            {
+                id: 68,
+                name: "BMW M3 Wagon",
+                price: 599,
+                category: "newarrival", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/0Rmj4bm5/bm3.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "BMW M3 Wagon – A rare performance wagon that mixes practicality with pure M-power thrills. 🚙🏁"
+            },
+            {
+                id: 69,
+                name: "BMW 635 CSi",
+                price: 849,
+                category: "rare", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/DsGxWs7/m6c.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "BMW 635 CSi – Classic luxury meets sporty performance in this timeless beauty. 🏁🚗"
+            },
+            {
+                id: 70,
+                name: "67 Shelby GT500 Mustang",
+                price: 749,
+                category: "mostwanted", // Change category here
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
+                images: [
+                    "https://i.ibb.co/LzNqJ6ms/shelg.jpg",
+                    // "",
+                    // "",
+                    // ""
+                ],
+                description: "67 Shelby GT500 Mustang – American muscle legend — raw power and iconic style in one beast. 🏁🔥"
+            },
+            {
                 id: 36,
                 name: "Lamborghini Sian FKP 37",
                 price: 1299,
                 category: "limited", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/m5v5zJVN/ls.jpg",
                     // "",
@@ -180,7 +290,7 @@
                 name: "Mclaren P1",
                 price: 1299,
                 category: "limited", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/6RGTvSPQ/mcp1.jpg",
                     // "",
@@ -193,7 +303,7 @@
                 name: "2016 BMW M2",
                 price: 1119,
                 category: "mostwanted", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/rfwHLMR3/bmw2.jpg",
                     // "",
@@ -207,7 +317,7 @@
                 name: "BMW M4",
                 price: 1299,
                 category: "mostwanted", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/TBJr5gv7/bm4.jpg",
                     // "",
@@ -221,7 +331,7 @@
                 name: "94 Audi Avant RS2",
                 price: 699,
                 category: "giftset", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/HTtsVK2m/dc.jpg",
                     "https://i.ibb.co/zhqDznzv/db.jpg",
@@ -234,7 +344,7 @@
                 name: "15 Land Rover Defender Double Cab",
                 price: 749,
                 category: "bestseller", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/Y7jRvbYn/kb.webp",
                     "https://i.ibb.co/wZrR8Dhn/ka.jpg",
@@ -247,7 +357,7 @@
                 name: "BMW M3 Wagon",
                 price: 699,
                 category: "newarrival", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
+                availability: "sold-out", // "in-stock", "sold-out", "low-stock"
                 images: [
                     "https://i.ibb.co/1tPyBkdw/bmw-m.jpg",
                     "https://i.ibb.co/LX3Cmdj5/bm.webp",
@@ -667,132 +777,6 @@
             }
     /*
             
-            {
-                id: 44,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            }
-                        {
-                id: 45,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
-            {
-                id: 46,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
-            {
-                id: 47,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            }
-                        {
-                id: 48,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
-            {
-                id: 49,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
-            {
-                id: 50,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            }
-                        {
-                id: 51,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
-            {
-                id: 52,
-                name: "",
-                price: ,
-                category: "", // Change category here
-                availability: "in-stock", // "in-stock", "sold-out", "low-stock"
-                images: [
-                    "",
-                    "",
-                    "",
-                    ""
-                ],
-                description: ""
-            },
             {
                 id: 53,
                 name: "",
