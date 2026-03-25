@@ -1,6 +1,50 @@
 {
     "products": [
         {
+            "id": 75,
+            "name": "Ambassador",
+            "price": 999999,
+            "category": "giftset",
+            "availability": "in-stock",
+            "images": [
+                "https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2025/11/09/878b3fa5-31cf-4092-85ee-f61960ded31b-ambassador-avigo.webp"
+            ],
+            "description": "vintage indian king"
+        },
+        {
+            "id": 72,
+            "name": "Swift ",
+            "price": 799999,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                "https://shivamautozone.com/wp-content/uploads/2024/05/Swift-2-768x433.webp"
+            ],
+            "description": "New legendary swift"
+        },
+        {
+            "id": 74,
+            "name": "Scorpio",
+            "price": 1400000,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                "https://images.overdrive.in/wp-content/uploads/2013/05/Mahindra-Scorpio-white-Car-photo1.jpg"
+            ],
+            "description": "king of road.bssssss"
+        },
+        {
+            "id": 73,
+            "name": "Splender pro+",
+            "price": 69999,
+            "category": "newarrival",
+            "availability": "low-stock",
+            "images": [
+                "https://cdn.bikedekho.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor69ba79ab4b4ff.jpg?imwidth=408&impolicy=resize"
+            ],
+            "description": "Splender pro + only bike needed for college student."
+        },
+        {
             "id": 48,
             "name": "Mercedes Benz E36 AMG",
             "price": 2099,
