@@ -56,6 +56,17 @@
             "description": "Splender pro + only bike needed for college student."
         },
         {
+            "id": 78,
+            "name": "",
+            "price": 0,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                ""
+            ],
+            "description": ""
+        },
+        {
             "id": 48,
             "name": "Mercedes Benz E36 AMG",
             "price": 2099,
