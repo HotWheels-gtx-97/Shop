@@ -12,17 +12,6 @@
             "description": "vintage indian king"
         },
         {
-            "id": 72,
-            "name": "Swift ",
-            "price": 799999,
-            "category": "bestseller",
-            "availability": "in-stock",
-            "images": [
-                "https://shivamautozone.com/wp-content/uploads/2024/05/Swift-2-768x433.webp"
-            ],
-            "description": "New legendary swift"
-        },
-        {
             "id": 74,
             "name": "Scorpio",
             "price": 1400000,
@@ -34,6 +23,28 @@
             "description": "king of road.bssssss"
         },
         {
+            "id": 72,
+            "name": "Swift ",
+            "price": 799999,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                "https://shivamautozone.com/wp-content/uploads/2024/05/Swift-2-768x433.webp"
+            ],
+            "description": "New legendary swift"
+        },
+        {
+            "id": 77,
+            "name": "David putra 2000cc",
+            "price": 99999999,
+            "category": "limited",
+            "availability": "in-stock",
+            "images": [
+                "https://i.pinimg.com/736x/82/df/8b/82df8bf2a563dafb102281ad7caed3f0.jpg"
+            ],
+            "description": "the best...the beast...."
+        },
+        {
             "id": 73,
             "name": "Splender pro+",
             "price": 69999,
@@ -43,6 +54,17 @@
                 "https://cdn.bikedekho.com/processedimages/hero-motocorp/hero-motocorp-splendor/source/hero-motocorp-splendor69ba79ab4b4ff.jpg?imwidth=408&impolicy=resize"
             ],
             "description": "Splender pro + only bike needed for college student."
+        },
+        {
+            "id": 76,
+            "name": "",
+            "price": 0,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                ""
+            ],
+            "description": ""
         },
         {
             "id": 48,
