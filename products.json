@@ -1,6 +1,17 @@
 {
     "products": [
         {
+            "id": 72,
+            "name": "swift",
+            "price": 585852,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                ""
+            ],
+            "description": "h"
+        },
+        {
             "id": 48,
             "name": "Mercedes Benz E36 AMG",
             "price": 2099,
