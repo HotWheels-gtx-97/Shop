@@ -57,14 +57,14 @@
         },
         {
             "id": 78,
-            "name": "",
-            "price": 0,
-            "category": "bestseller",
+            "name": "ZX10R",
+            "price": 1900000,
+            "category": "limited",
             "availability": "in-stock",
             "images": [
-                ""
+                "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard1757579629039.jpg?q=80"
             ],
-            "description": ""
+            "description": "bhurr."
         },
         {
             "id": 48,
