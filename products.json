@@ -1,17 +1,6 @@
 {
     "products": [
         {
-            "id": 79,
-            "name": "ferrari",
-            "price": 10000000,
-            "category": "bestseller",
-            "availability": "in-stock",
-            "images": [
-                "https://media.wired.com/photos/5ceeed5b0bdd96c34c6174a3/master/pass/01_Ferrari_SF90_03.jpg"
-            ],
-            "description": "surr"
-        },
-        {
             "id": 75,
             "name": "Ambassador",
             "price": 999999,
@@ -21,6 +10,17 @@
                 "https://static-cdn.cars24.com/prod/auto-news24-cms/cars24-blog-images/2025/11/09/878b3fa5-31cf-4092-85ee-f61960ded31b-ambassador-avigo.webp"
             ],
             "description": "vintage indian king"
+        },
+        {
+            "id": 79,
+            "name": "ferrari",
+            "price": 10000000,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                "https://media.wired.com/photos/5ceeed5b0bdd96c34c6174a3/master/pass/01_Ferrari_SF90_03.jpg"
+            ],
+            "description": "surr"
         },
         {
             "id": 74,
@@ -312,32 +312,6 @@
                 "https://i.ibb.co/TBJr5gv7/bm4.jpg"
             ],
             "description": "Aggressive M performance."
-        },
-        {
-            "id": 10,
-            "name": "94 Audi Avant RS2",
-            "price": 699,
-            "category": "giftset",
-            "availability": "sold-out",
-            "images": [
-                "https://i.ibb.co/HTtsVK2m/dc.jpg",
-                "https://i.ibb.co/zhqDznzv/db.jpg",
-                "https://i.ibb.co/XrfpcR0V/da.jpg"
-            ],
-            "description": "Sleeper wagon."
-        },
-        {
-            "id": 17,
-            "name": "Land Rover Defender Double Cab",
-            "price": 749,
-            "category": "bestseller",
-            "availability": "sold-out",
-            "images": [
-                "https://i.ibb.co/Y7jRvbYn/kb.webp",
-                "https://i.ibb.co/wZrR8Dhn/ka.jpg",
-                "https://i.ibb.co/s92KfyDn/kc.jpg"
-            ],
-            "description": "Adventure-ready truck."
         }
     ]
 }
