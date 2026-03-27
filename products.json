@@ -34,15 +34,15 @@
             "description": "New legendary swift"
         },
         {
-            "id": 77,
-            "name": "David putra 2000cc",
-            "price": 99999999,
+            "id": 78,
+            "name": "ZX10R",
+            "price": 1900000,
             "category": "limited",
             "availability": "in-stock",
             "images": [
-                "https://i.pinimg.com/736x/82/df/8b/82df8bf2a563dafb102281ad7caed3f0.jpg"
+                "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard1757579629039.jpg?q=80"
             ],
-            "description": "the best...the beast...."
+            "description": "bhurr."
         },
         {
             "id": 73,
@@ -56,15 +56,15 @@
             "description": "Splender pro + only bike needed for college student."
         },
         {
-            "id": 78,
-            "name": "ZX10R",
-            "price": 1900000,
+            "id": 77,
+            "name": "David putra 2000cc",
+            "price": 99999999,
             "category": "limited",
             "availability": "in-stock",
             "images": [
-                "https://imgd.aeplcdn.com/664x374/n/cw/ec/1/versions/--standard1757579629039.jpg?q=80"
+                "https://i.pinimg.com/736x/82/df/8b/82df8bf2a563dafb102281ad7caed3f0.jpg"
             ],
-            "description": "bhurr."
+            "description": "the best...the beast...."
         },
         {
             "id": 48,
