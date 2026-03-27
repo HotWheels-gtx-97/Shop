@@ -2,14 +2,14 @@
     "products": [
         {
             "id": 72,
-            "name": "",
-            "price": 0,
+            "name": "rudra",
+            "price": 79,
             "category": "bestseller",
             "availability": "in-stock",
             "images": [
                 ""
             ],
-            "description": ""
+            "description": "super dupper"
         },
         {
             "id": 48,
