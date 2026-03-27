@@ -12,17 +12,6 @@
             "description": "Mercedes Benz E36 AMG \u00e2\u20ac\u201c A luxury sports car with a powerful V8 engine and sleek design."
         },
         {
-            "id": 72,
-            "name": "rudraansh",
-            "price": 59,
-            "category": "bestseller",
-            "availability": "in-stock",
-            "images": [
-                ""
-            ],
-            "description": "super dupper sabse gh"
-        },
-        {
             "id": 47,
             "name": "91 BMW M5",
             "price": 2199,
