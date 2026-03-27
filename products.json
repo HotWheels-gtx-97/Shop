@@ -2,14 +2,14 @@
     "products": [
         {
             "id": 72,
-            "name": "rudra",
-            "price": 79,
+            "name": "rudraansh",
+            "price": 59,
             "category": "bestseller",
             "availability": "in-stock",
             "images": [
                 ""
             ],
-            "description": "super dupper"
+            "description": "super dupper sabse "
         },
         {
             "id": 48,
