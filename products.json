@@ -1,6 +1,17 @@
 {
     "products": [
         {
+            "id": 79,
+            "name": "ferrari",
+            "price": 10000000,
+            "category": "bestseller",
+            "availability": "in-stock",
+            "images": [
+                "https://media.wired.com/photos/5ceeed5b0bdd96c34c6174a3/master/pass/01_Ferrari_SF90_03.jpg"
+            ],
+            "description": "surr"
+        },
+        {
             "id": 75,
             "name": "Ambassador",
             "price": 999999,
